@@ -18,17 +18,18 @@
       "es2018",
       "dom"
     ],
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
+    // "noImplicitAny": true,
+    // "noImplicitReturns": true,
+    // "noImplicitThis": true,
     "noFallthroughCasesInSwitch": true,
-    "strictNullChecks": true
+    // "strictNullChecks": true
   },
   "exclude": [
     "src/assets"
   ],
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
+    "strictInjectionParameters": true,
+    "enableI18nLegacyMessageIdFormat": false
   }
 }
